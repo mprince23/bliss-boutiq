@@ -200,7 +200,6 @@ const CartPage = () => {
             console.log("User Data:", user);
         } catch (error) {
             console.error("Error fetching user data:", error);
-            alert("Failed to fetch user data.");
         }
     };
 
